@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jcifs-file-transfer
+
+jcifs:
+  user: ${USER}
+  user-password: ${USER_PASSWORD}
+  shared-folder-path: ${SHARED_FOLDER_PATH}
+  local-file-path: ${LOCAL_FILE_PATH}
+  file-to-share: ${FILE_NAME}
+
+server:
+  port: 9090
