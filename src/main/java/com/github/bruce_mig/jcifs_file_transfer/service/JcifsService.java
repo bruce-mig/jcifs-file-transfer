@@ -58,7 +58,7 @@ public class JcifsService {
                 sfos.write(buffer, 0, bytesRead);
             }
 
-            System.out.println("File uploaded successfully.");
+            log.info("File uploaded successfully.");
 
         } catch ( IOException e) {
             log.error("Failed to upload file{}: ", e.getMessage());
